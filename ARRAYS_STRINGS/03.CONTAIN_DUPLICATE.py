@@ -7,7 +7,7 @@ class Solution(object):
             if num not in unique:
                 unique.append(num)
 
-        # Overwrite nums with the unique elements
+
         for i in range(len(unique)):
             nums[i] = unique[i]
 
